@@ -13,14 +13,14 @@ namespace Entities.Configuration
         {
             builder.HasData(
                 new FactuurType
-                {                
+                {
                     Id = 1,
-                    FactuurType1 = "Verkoop"
+                    FactuurTypeNaam = "Verkoop"
                 },
                 new FactuurType
                 {
                     Id = 2,
-                    FactuurType1 = "Aankoop"
+                    FactuurTypeNaam = "Aankoop"
                 }
 
                 );

@@ -22,7 +22,7 @@ namespace Entities.Models
         public DateTime? BetaalDatum { get; set; }
 
         public virtual Contact Contact { get; set; }                //1 contact to many facturen
-        public virtual FactuurType TypeNavigation { get; set; }     //1 factuurtype to many facturen
+        public virtual FactuurType TypeFactuur { get; set; }     //1 factuurtype to many facturen
         public virtual ICollection<KasVerrichting> KasVerrichting { get; set; }         //factuur has many kasverrichtingen
     }
 }

@@ -12,7 +12,7 @@ namespace Entities.Models
         }
 
         public int Id { get; set; }
-        public string FactuurType1 { get; set; }
+        public string FactuurTypeNaam { get; set; }
 
         public virtual ICollection<Factuur> Factuur { get; set; }   //factuurtype has many facturen
     }

@@ -6,9 +6,9 @@ namespace Entities.Models
 {
     public partial class Leverancier
     {
-        public int ContactNr { get; set; }
+        public int LeverancierNr { get; set; }
         public string NaamBedrijf { get; set; }
 
-        public virtual Contact ContactNrNavigation { get; set; }
+        public virtual Contact Contact { get; set; }
     }
 }
